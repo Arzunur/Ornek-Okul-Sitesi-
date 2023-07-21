@@ -1,0 +1,476 @@
+/*font başlangıç  */
+  
+/*font bitiş  */
+ 
+ /* body{background-color: #B7D7D8 ;} arkaplan rengi */
+.fff{
+  position: fixed;
+  position: fixed;
+
+  height: 0px;
+  width: 0px;
+  top: 0px;
+  margin: left 0px;;
+
+}
+ /*menü bar başlangıç  */
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+  }
+   
+  .menu li{
+    float: left;
+    position: relative;
+    width: 200px;
+    
+  }
+   
+  .menu ul li ul{
+    display: none;
+  }
+   
+  .menu ul li:hover ul{
+    display: block;
+  }
+   
+  .menu ul li a{ 
+    text-decoration: none;
+   background-color: white;
+    display: block;
+    color:  #C9463D;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+     /*border-bottom:2px solid yellow ; menü kenarlıkları rengi  
+    border-top:2px;  menü üst kenarlık rengi  */
+    padding: 19px;
+  }
+   
+  .menu ul li ul li a{
+    background:white ;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #C9463D ;
+    font-size: .8em;
+   
+  }
+   
+  .menu li a:hover{
+    background: #BBDEFF;
+    transition: .5s;
+  }
+   
+  .menu ul li ul li a:hover{
+    padding-left: 15px;
+    
+  }
+   
+.menu ul li ul{
+    display: none;
+  }
+   
+  .menu ul li:hover ul{
+    display: block;
+  }
+   /*menü bar bitiş  */
+   .slider{ 
+       
+   }
+   /*resim boyutlandırma başlangıç  */
+   /*resim boyutlandırma bitiş   */
+
+   /*duyurular başlangıç */
+   #personel{
+    width: 100%;
+    border: 20px solid #D1DBBD;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+
+    background: #C1DAD7;
+    border-collapse: collapse;
+    }
+     
+    #personel th{
+    color: #41AA7F;
+    padding: 6px 6px 6px 12px;
+     
+    }
+     
+    #personel td{
+    padding: 6px 6px 6px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    }
+    #personel tr{
+    color: #112233;
+    background: #fff;
+    }
+    #personel tr:hover{
+    background:#202020;
+    color:#fff;
+    }  
+    /*duyurular bitiş */
+ /*ikon başlangıç */
+ {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+input {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+  *overflow: visible;
+  line-height: normal;
+}
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+.span3 {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+  width: 220px;
+}
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+small {
+  font-size: 85%;
+}
+h1 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  line-height: 40px;
+  font-size: 38.5px;
+}
+h1 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999;
+  font-size: 24.5px;
+}
+
+body {
+  margin-top: 90px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  z-index: 10;
+}
+.footer {
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+.the-icons {
+  font-size: 14px;
+  line-height: 24px;
+}
+.switch {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #666;
+}
+.switch input {
+  margin-right: 0.3em;
+}
+.codesOn .i-name {
+  display: none;
+}
+.codesOn .i-code {
+  display: inline;
+}
+.i-code {
+  display: none;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('./font/fontello.eot?54695095');
+  src: url('./font/fontello.eot?54695095#iefix') format('embedded-opentype'),
+       url('./font/fontello.woff?54695095') format('woff'),
+       url('./font/fontello.ttf?54695095') format('truetype'),
+       url('./font/fontello.svg?54695095#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.demo-icon {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* You can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon{
+  font-size: 50px;
+  text-align: center;
+}
+ /*ikon bitiş */
+.use{
+  display:inline-block; font-size: 40px; color:#00ADB5;
+  margin: top 10px; 
+}
+.use:hover{
+  display:inline-block; font-size: 40px; color:#0B4958;
+}
+.boyut{
+  font-size: 15px;
+}
+.ggg{
+  border-radius: 5px;
+  width: 100%;
+  height: 9px;
+  background-color: white;
+}
+.gggh{
+  border-radius: 5px;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  margin-top: 300px;
+}
+/*css dgskvgdsv */
+.footer-dark {
+  padding:30px ;
+  color:#f0f9ff;
+  background-color:black;
+  padding-bottom: 15px;
+}
+.footerItem{
+  padding: 10px;    
+}
+.footerItem img {
+  height: 100px;
+  opacity: .5;
+}
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social  a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+/*Bilgisayar Programcılığı*/
+
+.pp {
+  
+  padding: 20px;
+  text-align: center;
+  width: 100%; height: 60px;
+  background-color: #212746;
+  font-size: 20px;
+  color: #B6B4BF;
+}
+.m1{ 
+
+}
+.pp:hover{
+  color: orangered;
+}
+.genel{
+  text-decoration: overline;
+}
+
+#personel{
+  width: 100%;
+  
+  border: 0px solid #FF6A00;
+  letter-spacing: 2px;
+  
+  text-align: left;
+  padding: 6px 6px 6px 12px;
+  } 
+  #personel th{
+  color: #FF6A00;
+  padding:6px; 
+  }
+  #personel tr{
+  color: #FF6A00;
+  background: #FFFFEA ;
+  padding: 4px;
+  }
+ .vf{text-align: justify;}
+  
+ .li{color: orange;}
+ /* maddeleme*/
+ .personellink {
+   text-decoration: none;
+   color: #112F41;
+   
+ }
+
+
